@@ -1,0 +1,27 @@
+{
+  "root": [
+    {
+      "moduleName": "RootModule",
+      "children": [
+        {
+          "moduleName": "Children1",
+          "children": []
+        },
+        {
+          "moduleName": "Children2",
+          "children": [
+            {
+              "moduleName": "SubChild1",
+              "children": [
+                {
+                  "moduleName": "SubSubChild1",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
