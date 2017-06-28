@@ -1,22 +1,7 @@
-import fs from 'fs'
+import ABAC from './abac'
+import AccessControl from './utils/accessControl'
 
-let object = {};
-
-class ABAC {
-  constructor() {}
-
-  loadConfiguration(configFileName, configFilePath, configType) {
-    let completePath = `${configFilePath}/${configFileName}`;
-    let abc;
-    try {
-      abc = require(completePath);
-    } catch (e) {
-      throw e;
-    }
-    object[configType] = abc;
-    console.log(JSON.stringify(object, null, 2));
-    return this;
-  }
+module.exports = {
+  ABAC,
+  AccessControl
 }
-
-export default ABAC;

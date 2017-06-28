@@ -1,0 +1,11 @@
+[
+  {"moduleName": "M0", "parent": null, "children":["M1","M2","M3"]},
+  {"moduleName": "M1", "parent": "M0", "children":["M4","M5"]},
+  {"moduleName": "M2", "parent": "M0", "children":["M6","M7","M8"]},
+  {"moduleName": "M3", "parent": "M0", "children":null},
+  {"moduleName": "M4", "parent": "M1", "children":null},
+  {"moduleName": "M5", "parent": "M1", "children":null},
+  {"moduleName": "M6", "parent": "M2", "children":null},
+  {"moduleName": "M7", "parent": "M2", "children":null},
+  {"moduleName": "M8", "parent": "M2", "children":null}
+]

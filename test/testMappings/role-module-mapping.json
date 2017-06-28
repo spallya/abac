@@ -1,0 +1,20 @@
+{
+  "superAdmin": {
+    "M0":{
+      "operations": ["C","R","U","D"]
+    }
+  },
+  "admin": {
+    "M2":{
+      "operations":["R","U"]
+    }
+  },
+  "user":{
+    "M6":{
+      "operations":["R"]
+    },
+    "M8":{
+      "operations":["R"]
+    }
+  }
+}

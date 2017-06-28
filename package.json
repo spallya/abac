@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node test/testConfig.js --presets es2015,stage-2"
+    "start": "babel-node test/test.js --presets es2015,stage-2"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
